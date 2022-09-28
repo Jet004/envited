@@ -1,0 +1,37 @@
+{
+  "name": "envited",
+  "version": "1.0.0",
+  "description": "A technical assessment project",
+  "main": "index.js",
+  "type": "module",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jet004/envited.git"
+  },
+  "keywords": [],
+  "author": "Jacob Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jet004/envited/issues"
+  },
+  "homepage": "https://github.com/Jet004/envited#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.36.1",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.16",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.1.8"
+  }
+}

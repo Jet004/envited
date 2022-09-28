@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+    font-family: helvetica;
+}
+
+.heading-highlight {
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    background-clip: text;
+    color: transparent;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+}
+
+@layer components {
+    .heading-text {
+        @apply text-4xl sm:text-[64px] text-[#240D57] font-bold leading-none
+    }
+
+    .heading-subtext {
+        @apply font-light sm:text-2xl text-[#4F4F4F] mt-[16]
+    }
+
+}
